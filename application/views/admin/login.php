@@ -14,10 +14,11 @@
         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/css/form-elements.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/css/custom.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/css/style.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/css/custom.css">
         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/usertemplate/assets/css/jquery.mCustomScrollbar.min.css">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
      <style type="text/css">
        /*.col-md-offset-3 { margin-left: 29%;}*/
        .bgoffsetbgno{background: transparent; border-right:0 !important; box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.29); border-radius: 4px;}
@@ -53,7 +54,7 @@ if(empty($notice)){
                        
                
                      
-                        <div class="col-lg-4 col-md-4 col-sm-12 nopadding <?php echo $bgoffsetbgno; ?> <?php echo $offset; ?>">
+                        <div class="col-lg-5 col-md-5 col-sm-12 nopadding <?php echo $bgoffsetbgno; ?> <?php echo $offset; ?>">
                             <div class="loginbg loginradius login390">  
                                 <div class="form-top">
                                     <div class="form-top-left logowidth">
@@ -63,7 +64,7 @@ if(empty($notice)){
                                 </div>
 
                                 <div class="form-bottom">
-                                    <h3 class="font-white bolds"><?php echo $this->lang->line('admin_login'); ?></h3>
+                                    <h3 class="font-white bolds">login to continue<?php //echo $this->lang->line('admin_login'); ?></h3>
                                     <?php
                                     if (isset($error_message)) {
                                         echo "<div class='alert alert-danger'>" . $error_message . "</div>";
@@ -89,7 +90,7 @@ if(empty($notice)){
                                         </div>
                                         <button type="submit" class="btn"><?php echo $this->lang->line('sign_in'); ?></button>
                                     </form>
-                                    <a href="<?php echo site_url('site/forgotpassword') ?>" class="forgot"><i class="fa fa-key"></i> <?php echo $this->lang->line('forgot_password'); ?>?</a>
+                                    <a href=" Forgot Password? <?php //echo site_url('site/forgotpassword') ?>" class="forgot"><i class="fa fa-key"></i> <?php echo $this->lang->line('forgot_password'); ?>?</a>
                                 </div>
                             </div>
                         </div>
