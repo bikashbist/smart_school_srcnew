@@ -276,7 +276,7 @@ button.btn:after
                 }
             input[type="text"]:focus, input[type="password"]:focus, textarea:focus, 
             textarea.form-control:focus {
-                border-bottom: 2px solid #35aa47 !important;border: 0;}
+                border-bottom: 2px solid 489ee7 !important;border: 0;}
             button.btn {height: 40px;line-height: 40px;}
             .ispace{ padding-right:5px;}
             .form-top {
@@ -364,7 +364,7 @@ z-index: 99;
 
 }
 .more{display: block;}     
-a.more {text-decoration: none;color: #35aa47;font-size: 12px;}
+a.more {text-decoration: none;color: #489ee7;font-size: 12px;}
 a.more:hover{color: #0084B4;text-decoration: none;}
 
 .logdivider{background:rgba(255, 255, 255, 0.11); clear: both; width: 100%; height: 1px;margin: 15px 0 15px;}

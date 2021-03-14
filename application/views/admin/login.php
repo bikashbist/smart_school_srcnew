@@ -57,14 +57,15 @@ if(empty($notice)){
                         <div class="col-lg-5 col-md-5 col-sm-12 nopadding <?php echo $bgoffsetbgno; ?> <?php echo $offset; ?>">
                             <div class="loginbg loginradius login390">  
                                 <div class="form-top">
-                                    <div class="form-top-left logowidth">
-                                        <img src="<?php echo base_url(); ?>uploads/school_content/admin_logo/<?php $this->setting_model->getAdminlogo();?>" />    
+                                    <div class="form-top-left"> <img src="<?php echo base_url(); ?>backend/images/header_logo.png" > 
+                                         
                                     </div>
                                     <!-- <div class="form-top-right"><i class="fa fa-key"></i></div> -->
                                 </div>
 
                                 <div class="form-bottom">
-                                    <h3 class="font-white bolds">login to continue<?php //echo $this->lang->line('admin_login'); ?></h3>
+                                <p>Welcome to the School Management System. To continue, please login using your username and password below.</p>
+                                    <h2 class="font-white bolds">login to continue</h2>
                                     <?php
                                     if (isset($error_message)) {
                                         echo "<div class='alert alert-danger'>" . $error_message . "</div>";
@@ -88,9 +89,9 @@ if(empty($notice)){
                                             <span class="fa fa-lock form-control-feedback"></span>
                                             <span class="text-danger"><?php echo form_error('password'); ?></span>
                                         </div>
-                                        <button type="submit" class="btn"><?php echo $this->lang->line('sign_in'); ?></button>
+                                        <button type="submit" class="btn btn-login"><?php echo $this->lang->line('sign_in'); ?></button>
                                     </form>
-                                    <a href=" Forgot Password? <?php //echo site_url('site/forgotpassword') ?>" class="forgot"><i class="fa fa-key"></i> <?php echo $this->lang->line('forgot_password'); ?>?</a>
+                                    <a href=" Forgot Password? <?php //echo site_url('site/forgotpassword') ?>" class="forgot"> <?php echo $this->lang->line('forgot_password'); ?>?</a>
                                 </div>
                             </div>
                         </div>
