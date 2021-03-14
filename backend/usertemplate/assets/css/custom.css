@@ -1,0 +1,81 @@
+body{
+    font-family: 'Helvetica Neue', 'Nunito', sans-serif;
+}
+.them-color{
+    background-color: #489ee7;
+}
+.top-content {
+    height: 100%;
+}
+.inner-bg {
+    background: #e9ebee;
+    height: 100vh;
+    padding: 40px 0 100px 0;
+}
+.form-top {
+   background-color: #489ee7;
+}
+.form-bottom {
+    background-color: #FFFFFF;
+}
+.form-top-left {
+    float: none;
+    width: 75%;
+    padding-top: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    max-width: 200px;
+}
+p {
+    line-height: 1.42857143;
+    color: #555555;
+    font-family: 'Helvetica Neue', 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+    margin-bottom: 15px;
+}
+
+.font-white{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 0;
+    font-weight: 400;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #555555;
+    font-family: 'Baloo 2', cursive;
+}
+input[type="text"], input[type="password"], textarea, textarea.form-control {
+    margin-top: 20px;
+    height: 50px;
+    font-size: 13px;
+    color: #555555!important;
+}
+button.btn.btn-login {
+    height: 40px;
+    font-size: 16px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    line-height: 40px;
+    padding: 0;
+    margin-top: 8px;
+    border-radius: 0px;
+}
+button.btn.btn-login:hover {
+    background-color: #3192e4;
+}
+.loginbg {
+     max-height: 100%;  
+}
+a.forgot {
+    font-family: 'Baloo 2', cursive;
+    font-size: 15px;
+    margin-top: 6px;
+    text-align: center;
+    display: block;
+    color: #555555;
+    font-weight: 400;
+}
