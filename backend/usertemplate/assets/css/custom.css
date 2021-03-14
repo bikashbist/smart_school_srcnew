@@ -6,6 +6,7 @@ body{
 }
 .top-content {
     height: 100%;
+    background: #e9ebee;
 }
 .inner-bg {
     background: #e9ebee;
@@ -78,4 +79,8 @@ a.forgot {
     display: block;
     color: #555555;
     font-weight: 400;
+}
+.form-top-left {
+
+    padding-bottom: 0px; 
 }
